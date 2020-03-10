@@ -1,0 +1,31 @@
+{
+  "name": "lesson_hexlet_jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel src --out-dir dist",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julijaschwarz/lesson_hexlet_jest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julijaschwarz/lesson_hexlet_jest/issues"
+  },
+  "homepage": "https://github.com/julijaschwarz/lesson_hexlet_jest#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^25.1.0",
+    "jest": "^25.1.0"
+  },
+  "files": [
+  "dist"
+  ]
+}
