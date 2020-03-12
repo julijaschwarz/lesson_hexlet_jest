@@ -12,3 +12,5 @@ jobs:
       - uses: actions/setup-node@v1
       - run: npm ci
       - run: npm test
+      env:
+        CI: true
